@@ -23,4 +23,4 @@ features:
     description: Put ! description here
 ---
 
-dumi-site-template
+aicg-cn-site

@@ -1,4 +1,4 @@
-# dumi-site-template
+# aicg-cn-site
 
 A static site base on [dumi](https://d.umijs.org).
 

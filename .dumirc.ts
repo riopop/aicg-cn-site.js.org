@@ -6,7 +6,7 @@ export default defineConfig({
   autoAlias: false,
   themeConfig: {
     // TODO 替换为新的的 name
-    name: 'dumi-site-template',
+    name: 'aicg-cn-site',
     // TODO 替换为新的的 logo
     logo: 'https://cdn.jsdelivr.net/gh/riopop/images@main/112144929.png',
     prefersColor: { default: 'auto' },
@@ -20,23 +20,18 @@ export default defineConfig({
     // TODO 替换为自己的主题色
     '@c-primary': '#13aa52',
   },
-  publicPath:
-    process.env.NODE_ENV === 'production'
-    // TODO 替换为新的的仓库名
-      ? 'https://cdn.jsdelivr.net/gh/riopop/riopop.js.org@gh-pages/'
-      : '/',
   analytics: {
     // TODO 替换为新的的 Google Analytics 代码
     // ga_v2: '',
   },
   sitemap: {
     // TODO 配置为新的域名
-    hostname: 'https://riopop.js.org',
+    hostname: 'https://aicg-cn-site.js.org',
   },
   hash: true,
   exportStatic: {},
   ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
   headScripts: [
-    {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'},
+    {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7944221633776517', async: true, crossorigin: 'anonymous'},
   ]
 });
