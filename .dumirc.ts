@@ -6,7 +6,7 @@ export default defineConfig({
   autoAlias: false,
   themeConfig: {
     // TODO 替换为新的的 name
-    name: 'aicg-cn-site',
+    name: 'aigc-cn-site',
     // TODO 替换为新的的 logo
     logo: 'https://cdn.jsdelivr.net/gh/riopop/images@main/112144929.png',
     prefersColor: { default: 'auto' },
@@ -26,7 +26,7 @@ export default defineConfig({
   },
   sitemap: {
     // TODO 配置为新的域名
-    hostname: 'https://aicg-cn-site.js.org',
+    hostname: 'https://aigc-cn-site.js.org',
   },
   hash: true,
   exportStatic: {},
