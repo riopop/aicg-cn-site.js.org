@@ -20,5 +20,3 @@ features:
     emoji: 💡
     description: 通过AIGC的个性化推荐技术，我们能够分析用户的兴趣和喜好，为他们量身定制个性化的推荐内容，提供更优质的使用体验。
 ---
-
-aigc-cn-site

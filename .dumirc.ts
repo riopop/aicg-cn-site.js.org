@@ -6,7 +6,7 @@ export default defineConfig({
   autoAlias: false,
   themeConfig: {
     // TODO 替换为新的的 name
-    name: 'aigc-cn-site',
+    name: 'AIGC 中文小站',
     // TODO 替换为新的的 logo
     logo: 'https://cdn.jsdelivr.net/gh/riopop/images@main/112144929.png',
     prefersColor: { default: 'auto' },
