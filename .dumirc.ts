@@ -26,7 +26,7 @@ export default defineConfig({
   },
   sitemap: {
     // TODO 配置为新的域名
-    hostname: 'https://aigc.haisawa.com/',
+    hostname: 'https://haisawa.com/',
   },
   hash: true,
   exportStatic: {},
